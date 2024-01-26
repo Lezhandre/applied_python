@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "applied-python"
+version = "0.1.0"
+description = ""
+authors = ["Lezhandre <duzhenko.misha@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.30.0"
+aiogram = "^3.3.0"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.0"
+fastapi = "^0.109.0"
+pydantic = "^2.5.3"
+pydantic-settings = "^2.1.0"
+pytz = "^2023.3.post1"
+uvicorn = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

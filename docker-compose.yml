@@ -1,0 +1,15 @@
+services:
+
+  model_service:
+    build: model_service/
+    command: python fastapi_service.py
+    network_mode: host
+    ports:
+      - 8000:8000
+
+  telegram_bot:
+    build: telegram_bot/
+    command: python bot.py
+    network_mode: host
+    depends_on:
+      - model_service
