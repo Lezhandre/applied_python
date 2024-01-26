@@ -10,4 +10,4 @@ RUN pip install uvicorn fastapi pandas scikit-learn pydantic
 
 WORKDIR python
 
-CMD ["python", "fastapi_service.py"]
+#CMD ["python", "fastapi_service.py"]

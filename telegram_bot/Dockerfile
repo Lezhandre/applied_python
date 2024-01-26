@@ -11,3 +11,5 @@ COPY *.py python/
 RUN pip install requests aiogram pandas pydantic_settings
 
 WORKDIR python
+
+#CMD ["python", "bot.py"]
