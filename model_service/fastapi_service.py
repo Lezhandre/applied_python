@@ -36,7 +36,7 @@ class ModelInfo:
 
 
 app = FastAPI()
-model = ModelInfo('../docs/data.csv')
+model = ModelInfo('data.csv')
 
 
 @app.get('/')

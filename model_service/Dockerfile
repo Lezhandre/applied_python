@@ -3,7 +3,7 @@ LABEL authors="michael"
 
 WORKDIR home
 
-COPY *.csv docs/
+COPY *.csv python/
 COPY *.py python/
 
 RUN pip install uvicorn fastapi pandas scikit-learn pydantic
